@@ -1,0 +1,24 @@
+.Soda-ImgContainer {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.Soda-ImgContainer img {
+  max-height: 400px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(-40deg);
+  }
+
+  50% {
+    transform: rotate(40deg);
+  }
+
+  100% {
+    transform: rotate(-40deg);
+  }
+}

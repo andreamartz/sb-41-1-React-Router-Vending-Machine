@@ -7,7 +7,7 @@ import vendingMachineImg from "./VendingMachine.jpg";
 function VendingMachine() {
   return (
     <div className="VendingMachine">
-      <h1>What would you like to eat?</h1>
+      <h1>What would you like to eat from the vending machine?</h1>
       <p><Link to="/chips">chips</Link></p>
       <p><Link to="/cupcakes">cupcakes</Link></p>
       <p><Link to="/soda">soda</Link></p>

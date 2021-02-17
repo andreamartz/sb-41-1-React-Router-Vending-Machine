@@ -7,7 +7,18 @@
   width: auto;
 }
 
+.VendingMachine {
+  /* text-align: center; */
+  /* margin: 0 auto; */
+}
+
 .VendingMachine p {
   font-size: 1.3rem;
   letter-spacing: 1.1px;
+}
+
+.VendingMachine h1 {
+  width: 500px;
+  text-align: center;
+  margin: 0 auto;
 }
