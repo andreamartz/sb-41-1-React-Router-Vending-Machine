@@ -1,0 +1,24 @@
+.Chips-ImgContainer {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.Chips-ImgContainer img {
+  max-height: 500px;
+  animation: grow 2s linear infinite;
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(0.5, 0.5);
+  }
+
+  50% {
+    transform: scale(0.75, 0.75);
+  }
+
+  100% {
+    transform: scale(0.5, 0.5);
+  }
+}
